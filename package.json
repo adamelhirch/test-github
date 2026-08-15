@@ -1,0 +1,18 @@
+{
+  "name": "smoke-ts-skeleton",
+  "version": "0.1.0",
+  "description": "Minimal TypeScript smoke skeleton: src + test + CI workflow",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/**/*.test.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
